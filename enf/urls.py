@@ -21,8 +21,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('main.urls', namespace='main')),
-    path()
+    path('', include('main.urls', namespace='main'))
 ]
 
 # позволяет видеть на сайте фотографии и работать с ними
